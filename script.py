@@ -121,11 +121,11 @@ def read_next_batch(old_file, new_file, n=100):
 
 
 def get_tweets(ids):
-    consumer_key = "ADThkJAp5uBhHD99zFxxcXIjP"
-    consumer_secret = "Dsgu3A2C4YRS2pYHoxhp05MvhmcWpenbePuEdaND83rJLjyzYW"
-    bearer_token = "AAAAAAAAAAAAAAAAAAAAAPdHOgEAAAAAHlwxWyrZryqoe%2BXydjrxD0ZIbIc%3DEz5A4VcxcpwLmOVezhEIpPFIMH9JgJrobrEO6rkfF77u2of0yN"
-    access_token = "1381679683939528704-ptFr0qXLFOmpRKqpgE4M50rfV6d5ZI"
-    access_token_secret = "aIqmrRjxNW37SmMMKdBpJGDIdOy997Wm3kNpmDeP23641"
+    consumer_key = "---"
+    consumer_secret = "----"
+    bearer_token = "----"
+    access_token = "-----"
+    access_token_secret = "----"
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
